@@ -12,6 +12,9 @@ function Counter() {
         if (counter >= 0) {
             setCounter(counter + 1);
         };
+        if(counter === 5){
+            alert('You´re already on 5')
+        }
     }
 
     const substractNumber = () => {
